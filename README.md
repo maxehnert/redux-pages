@@ -1,12 +1,7 @@
-Redux Easy Boilerplate
-=========================
-
-![http://anorudes.github.io/redux-easy-boilerplate/](https://raw.githubusercontent.com/anorudes/redux-easy-boilerplate/569905d1aabc33ce385b1895984141764d364b54/gh/browser.png)
 
 ## Table of Contents
 
 - [About](#about)
-- [Installation](#installation)
 - [Development](#development)
 - [Build](#build--buildproduction)
 
@@ -25,30 +20,14 @@ Redux Easy Boilerplate
 - [karma](https://github.com/karma-runner/karma)
 - [mocha](https://github.com/mochajs/mocha)
 
-## Installation
-```
-$ git clone https://github.com/anorudes/redux-easy-boilerplate.git
-$ cd redux-easy-boilerplate
-$ npm install
-```
 
 ## Development
 ```
 $ npm start
 ```
-Runs the project in development mode with hot-reloading of `src` folder. 
+Runs the project in development mode with hot-reloading of `src` folder.
 Open your browser at [http://localhost:3000](http://localhost:3000).
 
-## Contribution
-
-Before push commit make sure that all modules are added in package.json
-
-### Try
-```
-$ rm -rf node_modules
-$ npm i
-$ npm start
-```
 
 ## Clean
 ```
@@ -60,7 +39,7 @@ Using rimraf clean the `dist` folder, which is the target of the `build`
 ```
 $ npm run build
 ```
-Builds the app into the 'dist' folder for deployment 
+Builds the app into the 'dist' folder for deployment
 ```
 $ npm run build:production
 ```
@@ -77,7 +56,7 @@ To make this change edit `src/index.js`
 ```
 // before change
 ...
-import { Router, Redirect, hashHistory as history } from 'react-router'; 
+import { Router, Redirect, hashHistory as history } from 'react-router';
 ...
 
 // after change

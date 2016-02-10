@@ -27,13 +27,6 @@
     "webpack"
   ],
   "license": "MIT",
-  "authors": [
-    "Max Anoru (https://github.com/anorudes)",
-    "Andrey Keske (https://github.com/keske)"
-  ],
-  "contributors": [
-    "Ollipekka Jalonen (https://github.com/inertum)"
-  ],
   "devDependencies": {
     "autoprefixer": "6.2.3",
     "babel-core": "^6.3.26",
